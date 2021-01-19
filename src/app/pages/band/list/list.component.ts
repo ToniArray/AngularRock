@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import Bands from 'src/assets/json/bands.json';
+import { Band } from 'src/app/interfaces/bandInterface';
 
 @Component({
   selector: 'app-list',
@@ -8,7 +9,7 @@ import Bands from 'src/assets/json/bands.json';
 })
 export class ListComponent implements OnInit {
 
-  public bands = Bands
+  public bands: Band[] = Bands
 
   constructor() {
     console.log(this.bands)

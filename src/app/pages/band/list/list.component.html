@@ -1,10 +1,31 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <table>
-        <tr>
-          <th>Nombre</th>
-        </tr>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Integrantes</th>
+            <th scope="col">Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let band of bands">
+            <td>
+              {{band.id}}
+            </td>
+            <td>
+              {{band.name}}
+            </td>
+            <td>
+              {{band.miembros.length}}
+            </td>
+            <td>
+              <a class="btn btn-danger">Eliminar</a>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
   </div>
