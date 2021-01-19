@@ -8,7 +8,11 @@ import { CreateComponent } from './create/create.component';
 
 
 @NgModule({
-  declarations: [ListComponent, DetailComponent, CreateComponent],
+  declarations: [
+    ListComponent,
+    DetailComponent,
+    CreateComponent
+  ],
   imports: [
     CommonModule,
     BandRoutingModule

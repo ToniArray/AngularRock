@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  urlApiToken: 'http://spotify.developcode.es/api/token',
+  urlApiSpotify: 'https://api.spotify.com/v1',
+  clientId: '19701c3b54004f71bc16ef2d0635995f',
+  clientSecret: '36941d00554844d3aa00dcb374d6390a'
 };
 
 /*

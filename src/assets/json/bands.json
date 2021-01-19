@@ -9,7 +9,14 @@
       "Charlie Watts",
       "Keith Richards",
       "Ronnie Wood",
-      "Brian Jones"
+      "Brian Jones",
+      "Dick Taylor",
+      "Ricky Fenson",
+      "Bill Wyman",
+      "Mick Avory",
+      "",
+      "",
+      ""
     ],
     "image": "/https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
   },
@@ -56,7 +63,49 @@
     "image": "/https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
   },
   {
-    "id": 4,
+    "id": 5,
+    "name": "The Rolling Stones",
+    "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
+    "origen": "Londres, Reino Unido (1962)",
+    "miembros": [
+      "Mick Jagger",
+      "Charlie Watts",
+      "Keith Richards",
+      "Ronnie Wood",
+      "Brian Jones"
+    ],
+    "image": "/https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
+  },
+  {
+    "id": 6,
+    "name": "The Rolling Stones",
+    "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
+    "origen": "Londres, Reino Unido (1962)",
+    "miembros": [
+      "Mick Jagger",
+      "Charlie Watts",
+      "Keith Richards",
+      "Ronnie Wood",
+      "Brian Jones"
+    ],
+    "image": "/https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
+  },
+  {
+    "id": 7,
+    "name": "The Rolling Stones",
+    "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
+    "origen": "Londres, Reino Unido (1962)",
+    "miembros": [
+      "Mick Jagger",
+      "Charlie Watts",
+      "Keith Richards",
+      "Ronnie Wood",
+      "Brian Jones"
+    ],
+    "image": "/https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
+  },
+  {
+    "id": 8,
     "name": "The Rolling Stones",
     "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
     "origen": "Londres, Reino Unido (1962)",
