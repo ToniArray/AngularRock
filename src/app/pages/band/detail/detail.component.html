@@ -1,1 +1,50 @@
-<p>detail works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div>
+        <div class="mb-5">
+          <img class="image-header" [src]="band.image">
+        </div>
+        <div>
+          <div class="row mb-5">
+            <div class="col-lg-6 col-12">
+              <h1 class="mb-3">
+                {{band.name}}
+              </h1>
+              <p>
+                {{band.description}}
+              </p>
+            </div>
+            <div class="col-lg-6 col-12">
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <div><b>Origen:</b></div>
+                  <div>{{band.origin}}</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="grid grid-cols-3 sm:grid-cols-1 lg:grid-cols-2">
+                <div *ngFor="let artist of band.members; let i = index" class="card p-2">
+                  <div class="d-flex align-items-center">
+                    <img class="rounded-circle mr-3" src="https://picsum.photos/500/400?random={{i}}">
+                    <div>
+                      <div>
+                        <b>{{artist.name}}</b>
+                      </div>
+                      <div>
+                        {{artist.instrument}}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

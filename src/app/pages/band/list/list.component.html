@@ -1,4 +1,12 @@
 <div class="container">
+  <div class="row mb-3">
+    <div class="col-12">
+      <div class="d-flex">
+        <input class="form-control flex-grow-1 mr-2" type="text" [(ngModel)]="searchArtist" placeholder="Filtrar artista">
+        <button class="btn btn-primary" (click)="searchFilter(searchArtist)">Filtrar</button>
+      </div>
+    </div>
+  </div>
   <div class="row">
     <div class="col-12">
       <table class="table">
@@ -6,23 +14,19 @@
           <tr>
             <th scope="col">#</th>
             <th scope="col">Nombre</th>
-            <th scope="col">Integrantes</th>
-            <th scope="col">Acciones</th>
+            <th scope="col" class="text-right">Acciones</th>
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let band of bands">
+          <tr *ngFor="let band of result">
             <td>
               {{band.id}}
             </td>
             <td>
               {{band.name}}
             </td>
-            <td>
-              {{band.miembros.length}}
-            </td>
-            <td>
-              <a class="btn btn-info mr-md-2">Detalle</a>
+            <td class="text-right">
+              <a class="btn btn-info mr-md-2" [routerLink]="['/detail', band.id]">Detalle</a>
               <a class="btn btn-danger">Eliminar</a>
             </td>
           </tr>

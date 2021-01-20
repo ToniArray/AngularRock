@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import Bands from 'src/assets/json/bands.json';
+import { Band } from 'src/app/interfaces/bandInterface';
 
 @Component({
   selector: 'app-detail',
@@ -7,7 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailComponent implements OnInit {
 
-  constructor() { }
+  public idBand: string
+  public bands: any[] = Bands
+  public band: Band
+
+  constructor(private route:ActivatedRoute) {
+    this.idBand = this.route.snapshot.paramMap.get('id')
+    this.band = this.bands.find(element => element.id === this.idBand);
+    console.log(this.band)
+  }
 
   ngOnInit(): void {
   }

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { BandRoutingModule } from './band-routing.module';
 import { ListComponent } from './list/list.component';
@@ -15,7 +16,8 @@ import { CreateComponent } from './create/create.component';
   ],
   imports: [
     CommonModule,
-    BandRoutingModule
+    BandRoutingModule,
+    FormsModule
   ]
 })
 export class BandModule { }

@@ -11,12 +11,22 @@ import { SpotifyService } from 'src/app/services/spotify.service';
 export class ListComponent implements OnInit {
 
   public bands: Band[] = Bands
+  public result: Band[] = Bands
+  public searchArtist: string
 
   constructor(private spotifyService: SpotifyService) {
     console.log(this.bands)
   }
 
   ngOnInit(): void {
+  }
+
+  searchFilter(filter) {
+
+    this.result = this.bands.filter((value) => {
+      return value.name.toLowerCase().indexOf(filter.toLowerCase()) > -1
+    })
+    
   }
 
 }
