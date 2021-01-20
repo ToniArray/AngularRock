@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import Bands from 'src/assets/json/bands.json';
 import { Band } from 'src/app/interfaces/bandInterface';
-import { SpotifyService } from 'src/app/services/spotify.service';
+import { SpotifyService } from 'src/app/services/spotify.service'
+import { LocalstorageService } from 'src/app/services/localstorage.service';
 
 @Component({
   selector: 'app-list',
@@ -11,11 +12,12 @@ import { SpotifyService } from 'src/app/services/spotify.service';
 export class ListComponent implements OnInit {
 
   public bands: Band[] = Bands
-  public result: Band[] = Bands
   public searchArtist: string
 
-  constructor(private spotifyService: SpotifyService) {
-    console.log(this.bands)
+  constructor(
+    private spotifyService: SpotifyService,
+    private localstorageService: LocalstorageService) {
+    this.localstorageService.setData('bands', Bands)
   }
 
   ngOnInit(): void {
@@ -23,10 +25,10 @@ export class ListComponent implements OnInit {
 
   searchFilter(filter) {
 
-    this.result = this.bands.filter((value) => {
+    this.bands = this.localstorageService.getData('bands').filter((value) => {
       return value.name.toLowerCase().indexOf(filter.toLowerCase()) > -1
     })
-    
+
   }
 
 }
