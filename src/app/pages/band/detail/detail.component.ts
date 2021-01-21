@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import Bands from 'src/assets/json/bands.json';
 import { Band } from 'src/app/interfaces/bandInterface';
+import { LocalstorageService } from 'src/app/services/localstorage.service';
 
 @Component({
   selector: 'app-detail',
@@ -11,12 +11,15 @@ import { Band } from 'src/app/interfaces/bandInterface';
 export class DetailComponent implements OnInit {
 
   public idBand: string
-  public bands: any[] = Bands
   public band: Band
 
-  constructor(private route:ActivatedRoute) {
+  constructor(
+    private route:ActivatedRoute,
+    private localstorageService: LocalstorageService
+  ) {
     this.idBand = this.route.snapshot.paramMap.get('id')
-    this.band = this.bands.find(element => element.id === this.idBand);
+    const bands: any[] = this.localstorageService.getData('bands')
+    this.band = bands.find(element => element.id === this.idBand);
     console.log(this.band)
   }
 

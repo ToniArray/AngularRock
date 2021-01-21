@@ -59,99 +59,228 @@
   {
     "id": "2",
     "name": "Led Zeppelin",
-    "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
-    "origin": "Londres, Reino Unido (1962)",
+    "description": "Led Zeppelin fue un grupo británico de hard rock fundado en 1968 por el guitarrista Jimmy Page, quien había pertenecido a The Yardbirds. La banda estuvo integrada por John Paul Jones como bajista y teclista, el vocalista Robert Plant y John Bonham a la batería.​",
+    "origin": "Londres, Reino Unido (1968)",
     "members": [
-      "Mick Jagger",
-      "Charlie Watts",
-      "Keith Richards",
-      "Ronnie Wood",
-      "Brian Jones"
+      {
+        "name": "Jimmy Page",
+        "instrument": "Guitarra"
+      },
+      {
+        "name": "Robert Plant",
+        "instrument": "Armónica"
+      },
+      {
+        "name": "John Bonham",
+        "instrument": "Batería"
+      },
+      {
+        "name": "John Paul Jones",
+        "instrument": "Bajo eléctrico"
+      }
     ],
-    "image": "https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
+    "image": "https://d1b2ioo6u2o9wn.cloudfront.net/680x380/led_zeppelin.jpg"
   },
   {
     "id": "3",
     "name": "Queen",
-    "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
-    "origin": "Londres, Reino Unido (1962)",
+    "description": "Queen es una banda británica de rock formada en 1970 en Londres por el cantante y pianista Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon.​",
+    "origin": "Londres, Reino Unido (1970)",
     "members": [
-      "Mick Jagger",
-      "Charlie Watts",
-      "Keith Richards",
-      "Ronnie Wood",
-      "Brian Jones"
+      {
+        "name": "Freddie Mercury",
+        "instrument": "Cantante"
+      },
+      {
+        "name": "Brian May",
+        "instrument": "Guitarra"
+      },
+      {
+        "name": "John Deacon",
+        "instrument": "Bajo eléctrico"
+      },
+      {
+        "name": "Roger Taylor",
+        "instrument": "Guitarra"
+      },
+      {
+        "name": "Mike Grose",
+        "instrument": "..."
+      },
+      {
+        "name": "Barry Mitchell",
+        "instrument": "..."
+      },
+      {
+        "name": "Doug Bogie",
+        "instrument": "..."
+      }
     ],
-    "image": "https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
+    "image": "https://indiehoy.com/wp-content/uploads/2020/10/queen.jpg"
   },
   {
     "id": "4",
     "name": "Pink Floyd",
-    "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
-    "origin": "Londres, Reino Unido (1962)",
+    "description": "Pink Floyd fue una banda de rock británica, fundada en Londres en 1965. Es considerada un icono cultural del siglo xx y una de las bandas más influyentes y aclamadas en la historia de la música, que...​",
+    "origin": "Londres, Reino Unido (1965)",
     "members": [
-      "Mick Jagger",
-      "Charlie Watts",
-      "Keith Richards",
-      "Ronnie Wood",
-      "Brian Jones"
+      {
+        "name": "David Gilmour",
+        "instrument": "Guitarra"
+      },
+      {
+        "name": "Roger Waters",
+        "instrument": "Bajo eléctrico"
+      },
+      {
+        "name": "Syd Barrett",
+        "instrument": "Guitarra"
+      },
+      {
+        "name": "Richard Wright",
+        "instrument": "Intrumento de viento"
+      },
+      {
+        "name": "Nick Mason",
+        "instrument": "Batería"
+      },
+      {
+        "name": "Bob Klose",
+        "instrument": "..."
+      }
     ],
-    "image": "https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Pink_Floyd%2C_1971.jpg"
   },
   {
     "id": "5",
     "name": "Deep Purple",
-    "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
-    "origin": "Londres, Reino Unido (1962)",
+    "description": "Deep Purple es una banda británica de hard rock formada en 1968 en Hertford, Reino Unido. Está considerada como una de las pioneras de dicho subgénero, y los pioneros del heavy metal junto a Led Zeppelin y Black Sabbath.​",
+    "origin": "Hertford, Reino Unido (1968)",
     "members": [
-      "Mick Jagger",
-      "Charlie Watts",
-      "Keith Richards",
-      "Ronnie Wood",
-      "Brian Jones"
+      {
+        "name": "Ritchie Blackmore",
+        "instrument": "Guitarra"
+      },
+      {
+        "name": "Ian Gillan",
+        "instrument": "Armónica"
+      },
+      {
+        "name": "David Coverdale",
+        "instrument": "Vocalista principal"
+      },
+      {
+        "name": "Ian Paice",
+        "instrument": "Batería"
+      },
+      {
+        "name": "Roger Glover",
+        "instrument": "Bajo eléctrico"
+      },
+      {
+        "name": "Jon Lord",
+        "instrument": "Organo"
+      }
     ],
-    "image": "https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
+    "image": "https://media.stubhubstatic.com/stubhub-catalog/d_defaultLogo.jpg/t_f-fs-0fv,q_auto:low,f_auto,c_fill,dpr_2.0,$w_750,$h_416/performer/10331/fe257fab0619bdce3ffd641c15e5cf42"
   },
   {
     "id": "6",
     "name": "AC/DC",
-    "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
-    "origin": "Londres, Reino Unido (1962)",
+    "description": "AC/DC es una banda de hard rock australiana, formada en 1973 en Australia por los hermanos escoceses Malcolm y Angus Young.​",
+    "origin": "Sídney, Australia (1973)",
     "members": [
-      "Mick Jagger",
-      "Charlie Watts",
-      "Keith Richards",
-      "Ronnie Wood",
-      "Brian Jones"
+      {
+        "name": "Angus Young",
+        "instrument": "Guitarra lider"
+      },
+      {
+        "name": "Brian Johnson",
+        "instrument": "Vocalista principal"
+      },
+      {
+        "name": "Bon Scott",
+        "instrument": "Cantante"
+      },
+      {
+        "name": "Malcolm Young",
+        "instrument": "Guitarra rítmica"
+      },
+      {
+        "name": "Axl Rose",
+        "instrument": "Vocalista principal"
+      },
+      {
+        "name": "Phil Rudd",
+        "instrument": "Batería"
+      }
     ],
-    "image": "https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
+    "image": "https://www.ecestaticos.com/imagestatic/clipping/01a/029/01a029d8f8b9fe8a3988dc6bc1fa6d4b/la-ultima-bala-de-angus-young-lo-nuevo-de-ac-dc-es-un-discazo-que-ya-nadie-esperaba.jpg?mtime=1605267410"
   },
   {
     "id": "7",
     "name": "The Ramones",
-    "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
-    "origin": "Londres, Reino Unido (1962)",
+    "description": "Los Ramones fue una banda de punk formada en Forest Hills, en el distrito de Queens en 1974, y disuelta veintidós años más tarde, en 1996.​",
+    "origin": "Forest Hills, Nueva York, Estados Unidos (1974)",
     "members": [
-      "Mick Jagger",
-      "Charlie Watts",
-      "Keith Richards",
-      "Ronnie Wood",
-      "Brian Jones"
+      {
+        "name": "Joey Ramone",
+        "instrument": "Batería"
+      },
+      {
+        "name": "Johnny Ramone",
+        "instrument": "Guitarra"
+      },
+      {
+        "name": "Dee Dee Ramone",
+        "instrument": "Bajo eléctrico"
+      },
+      {
+        "name": "Marky Ramone",
+        "instrument": "Batería"
+      },
+      {
+        "name": "Tommy Ramone",
+        "instrument": "Batería"
+      },
+      {
+        "name": "C. J. Ramone",
+        "instrument": "Bajo eléctrico"
+      }
     ],
-    "image": "https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
+    "image": "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/06/01142610/TheRamones.jpg"
   },
   {
     "id": "8",
     "name": "Kiss",
-    "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Charlie Watts e Ian Stewart.​",
-    "origin": "Londres, Reino Unido (1962)",
+    "description": "Kiss es una banda estadounidense de rock formada en Nueva York en enero de 1973 por el bajista Gene Simmons y el guitarrista Paul Stanley, a los que más tarde se unirían el batería Peter Criss y el guitarrista Ace Frehley.​",
+    "origin": "Nueva York, Nueva York, Estados Unidos (1973)",
     "members": [
-      "Mick Jagger",
-      "Charlie Watts",
-      "Keith Richards",
-      "Ronnie Wood",
-      "Brian Jones"
+      {
+        "name": "Paul Stanley",
+        "instrument": "Vocalista principal"
+      },
+      {
+        "name": "Gene Simmons",
+        "instrument": "Bajo eléctrico"
+      },
+      {
+        "name": "Dee Dee Ramone",
+        "instrument": "Guitarra lider"
+      },
+      {
+        "name": "Peter Criss",
+        "instrument": "Batería"
+      },
+      {
+        "name": "Eric Carr",
+        "instrument": "Batería"
+      },
+      {
+        "name": "Vinnie Vincent",
+        "instrument": "Guitarra lider"
+      }
     ],
-    "image": "https://d1b2ioo6u2o9wn.cloudfront.net/680x380/the_rolling_stones.jpg"
+    "image": "https://3gt55c4047305i53njorm39p-wpengine.netdna-ssl.com/wp-content/uploads/myfest-kiss-1920x1080.jpg"
   }
 ]

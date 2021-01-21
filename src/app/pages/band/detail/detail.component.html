@@ -3,7 +3,7 @@
     <div class="col-12">
       <div>
         <div class="mb-5">
-          <img class="image-header" [src]="band.image">
+          <img class="image-header" [src]="band.image != null ? band.image : 'https://picsum.photos/500/400?random='+band.id">
         </div>
         <div>
           <div class="row mb-5">

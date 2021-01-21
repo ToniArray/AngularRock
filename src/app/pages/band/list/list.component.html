@@ -18,7 +18,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let band of bands">
+          <tr *ngFor="let band of bands; let i = index">
             <td>
               {{band.id}}
             </td>
@@ -27,7 +27,7 @@
             </td>
             <td class="text-right">
               <a class="btn btn-info mr-md-2" [routerLink]="['/detail', band.id]">Detalle</a>
-              <a class="btn btn-danger">Eliminar</a>
+              <a class="btn btn-danger" (click)="removeBand(i)">Eliminar</a>
             </td>
           </tr>
         </tbody>

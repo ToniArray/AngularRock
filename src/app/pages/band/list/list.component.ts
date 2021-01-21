@@ -11,13 +11,17 @@ import { LocalstorageService } from 'src/app/services/localstorage.service';
 })
 export class ListComponent implements OnInit {
 
-  public bands: Band[] = Bands
+  public bands: Band[]
   public searchArtist: string
 
   constructor(
     private spotifyService: SpotifyService,
     private localstorageService: LocalstorageService) {
-    this.localstorageService.setData('bands', Bands)
+      console.log(this.localstorageService.getData('bands'))
+      if(this.localstorageService.getData('bands') === undefined || this.localstorageService.getData('bands') === null) {
+        this.localstorageService.setData('bands', Bands)
+      }
+      this.bands = this.localstorageService.getData('bands')
   }
 
   ngOnInit(): void {
@@ -29,6 +33,11 @@ export class ListComponent implements OnInit {
       return value.name.toLowerCase().indexOf(filter.toLowerCase()) > -1
     })
 
+  }
+
+  removeBand(i: number) {
+    this.bands.splice(i, 1);
+    this.localstorageService.setData('bands', this.bands)
   }
 
 }
