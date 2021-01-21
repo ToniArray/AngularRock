@@ -20,7 +20,6 @@ export class DetailComponent implements OnInit {
     this.idBand = this.route.snapshot.paramMap.get('id')
     const bands: any[] = this.localstorageService.getData('bands')
     this.band = bands.find(element => element.id === this.idBand);
-    console.log(this.band)
   }
 
   ngOnInit(): void {

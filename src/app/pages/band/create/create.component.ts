@@ -43,7 +43,6 @@ export class CreateComponent implements OnInit {
 
   addArtist() {
     this.members.push(this.newMember())
-    console.log("artists: ", this.members.value)
   }
 
   removeArtist(i: number) {

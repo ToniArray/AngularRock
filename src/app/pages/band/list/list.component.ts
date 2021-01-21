@@ -17,7 +17,6 @@ export class ListComponent implements OnInit {
   constructor(
     private spotifyService: SpotifyService,
     private localstorageService: LocalstorageService) {
-      console.log(this.localstorageService.getData('bands'))
       if(this.localstorageService.getData('bands') === undefined || this.localstorageService.getData('bands') === null) {
         this.localstorageService.setData('bands', Bands)
       }
